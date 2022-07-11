@@ -1,0 +1,272 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Arima', cursive;
+    font-family: 'Oswald', sans-serif;
+}
+.menu{
+    background-color: rgb(184, 184, 184);
+    height: 40px;
+    /* margin-right: 0%; */
+    padding: 30px;
+}
+.for-inline{
+    margin-top: -15px;
+}
+.logo-title{
+   display: inline;
+   /* display:inline ; use korle sobai ak line a ase */
+} 
+
+.list{
+    margin-left: 1000px;
+    display: inline;
+    margin-top: 20px;
+} 
+.list a{
+    text-decoration: none;
+}
+
+.list a:hover{
+    background-color: green;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    color: wheat;
+}
+
+.list a li {
+    font-size: 20px;
+    font-weight: 700;
+    display: inline;
+    padding:20px;
+    /* ata use koray sobar majhe fak hoiche list gular */
+    list-style: none; 
+}
+.top-banner{
+    background-image: url(images/bg-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+}
+
+.top-banner{
+    margin-top: -10px;
+    /* ata deyay pic ta opor a uthe gase */
+}
+.about-banner{
+    text-align: center;
+    padding-top: 150px;
+    /* ata diye text middle a asche */
+}
+.about-banner h4{
+    font-size: 30px;
+    color: whitesmoke
+}
+.about-banner h1{
+    font-size: 50px;
+    color: whitesmoke
+}
+.about-banner p{
+    color: whitesmoke;
+    font-size: 20px;
+}
+
+.anchor-btn{
+    text-decoration: none;
+    background-color: brown;
+    color: beige;
+    font-size: 20px;
+    padding: 10px 20px;
+    /* ata use koray link gular sob dike space chole asche */
+    border-radius: 5px;
+    font-weight: 700;
+    margin-left: 10px;
+}
+
+.mid-section{
+    margin-bottom: 150px;
+}
+.card-title{
+    font-size: 60px;
+    text-align: center;
+}
+.card{
+    background-color: rgb(206, 224, 206);
+    margin: 35px;
+    padding: 30px;
+    border-radius:10px;
+    box-shadow: 0px 0px 40px 10px grey;
+}
+.card-section{
+    display: flex;
+    /* card-section Parent so flex ai khane */
+}
+
+.card img{
+    width: 100px;
+}
+.card p{
+    text-align: start;
+    /* suru theke start */
+    font-weight: 600;
+}
+
+.card a {
+    font-size: 20px;
+    font-weight: 600;
+    color: brown;
+}
+
+.about{
+    background-color: rgb(1, 1, 20);
+    color: wheat;
+    margin-bottom: 150px;
+    height: 750px;
+    /* ata add kore hoiche important */
+}
+.about-title {
+    font-size: 50px;
+    color: aliceblue;
+    text-align: center;
+}
+.total-width {
+    display: flex;
+    width: 100%;
+}
+.line{
+   width: 90%;
+   height: 2px;
+   background-color: rgb(192, 59, 59);
+   border: none;
+}
+.line2{
+    width: 90%;
+    height: 2px;
+    background-color: rgb(30, 185, 43);
+    border: none; 
+}
+.half-width{
+    width: 50%;
+}
+.half-width img{
+    width: 40%;
+    padding-left: 20px;
+}
+
+.experience {
+    font-size: 50px;
+}
+
+.lorem {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+ul li{
+    font-size: 30px;
+}
+/* ////////////////////ai mal ta kahini kore ///////////*/
+.shape{
+    background-image: url(images/shape/Group_33094_1.png);
+    /* background-color: red; */
+    background-repeat: no-repeat;
+    background-size: contain; 
+    /* ata amio bujhi nai asole kore ta ki..shape ta change kore disse */
+    height: 250px;
+    width: 800px;
+    margin: auto;
+    /* ata dileo kaj hossilo */
+    /* margin-left: 350px; */
+    margin-bottom: 150px;
+}
+
+.shape-in {
+    display: flex;
+    align-items: center;
+    padding: 70px 130px;
+}
+.shape-in h1{
+    color: aliceblue;
+}
+.shape-in button {
+    font-size: 20px;
+    border: none;
+    font-weight: 700;
+    /* align-items: center; */
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+.our{
+    text-align: center;
+}
+.hr{
+    width: 70%;
+    margin-bottom: 30px;
+}
+/* ///////////////////////////////////////MAl//////////////////////// */
+
+.service-card{
+    /* parent a flex use */
+    display: flex;
+    margin-bottom: 150px;
+    /* align-items: center; */
+    justify-content: center;
+    /* ata dile jekono kisu middle ase */
+}
+.one-card{
+    box-shadow: 1px 1px 17px 5px grey;
+    margin:0 30px;
+    /* ata na dile sob aksathe hoye jassilo */
+    border-radius: 10px;
+    padding:auto;
+    height: 500px;
+}
+.one-card img{
+    width: 350px;
+    height: 250px;
+    border-radius: 10px;
+}
+/* /////////////////////////////////////////////////////////////// */
+.one-card h2{
+    color: rgb(219, 52, 52);
+}
+.one-card h2, h1, h3{
+    margin: 18px;
+    font-weight: 700;
+}
+
+.card-price {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+.card-price h4{
+    margin-right: 10px;
+    color: rgb(180, 37, 37);
+    font-weight: 700;
+}
+.footer-line{
+    width: 80%;
+    border-bottom: 2px solid red;
+}
+footer {
+    height: 200px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+footer a{
+    color: black;
+    text-decoration: none;
+    font-weight: 700;
+}
+.youtube{
+    margin-left: 20px;
+}
+
+footer a:hover{
+    color: red;
+    text-decoration: underline;
+}
